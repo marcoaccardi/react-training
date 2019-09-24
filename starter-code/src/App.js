@@ -10,6 +10,8 @@ import ClickablePicture from "./ClickablePicture";
 
 import "./App.css";
 import LikeButton from "./LikeButton";
+import NumbersTable from "./NumbersTable";
+import Facebook from "./Facebook";
 
 function App() {
   return (
@@ -101,6 +103,8 @@ function App() {
         img="/img/persons/maxence.png"
         imgClicked="/img/persons/maxence-glasses.png"
       />
+      <NumbersTable limit={12} />
+      <Facebook />
     </div>
   );
 }

@@ -43,3 +43,18 @@
 .likeBtn {
   padding: 10px 20px;
 }
+
+.num-table {
+  padding: 100px;
+  margin: 0;
+  border: none;
+}
+
+.grid-table {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.img-profile {
+  height: 100px;
+}
