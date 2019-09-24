@@ -6,7 +6,7 @@ const BoxColor = props => {
       style={{
         backgroundColor: `rgb(${props.r}, ${props.g}, ${props.b})`
       }}
-      className="ColorBox"
+      className="color-box"
     >
       <p>
         rgb({props.r}, {props.g}, {props.b})
